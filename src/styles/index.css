@@ -1,0 +1,65 @@
+@import 'reset.css';
+
+@font-face {
+  font-family: 'Mono-Bold';
+  src: url('../assets/fonts/JetBrainsMono-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Mono-ExtraBold';
+  src: url('../assets/fonts/JetBrainsMono-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'Mono-ExtraLight';
+  src: url('../assets/fonts/JetBrainsMono-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Mono-Light';
+  src: url('../assets/fonts/JetBrainsMono-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Mono-Medium';
+  src: url('../assets/fonts/JetBrainsMono-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Mono-Regular';
+  src: url('../assets/fonts/JetBrainsMono-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Mono-SemiBold';
+  src: url('../assets/fonts/JetBrainsMono-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Mono-Thin';
+  src: url('../assets/fonts/JetBrainsMono-Thin.ttf');
+}
+
+@font-face {
+  font-family: 'Spoqa-Thin';
+  src: url('../assets/fonts/SpoqaHanSansNeo-Thin.ttf');
+}
+@font-face {
+  font-family: 'Spoqa-Light';
+  src: url('../assets/fonts/SpoqaHanSansNeo-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Spoqa-Medium';
+  src: url('../assets/fonts/SpoqaHanSansNeo-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Spoqa-Bold';
+  src: url('../assets/fonts/SpoqaHanSansNeo-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Spoqa-Regular';
+  src: url('../assets/fonts/SpoqaHanSansNeo-Regular.ttf');
+}
