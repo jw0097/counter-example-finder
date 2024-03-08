@@ -1,7 +1,16 @@
 import '@emotion/react';
 
 type palette = 'black' | 'gray' | 'blue' | 'white';
-type typo = 'header';
+type typo = 'header' | 'footer';
+type Component =
+  | 'header'
+  | 'footer'
+  | 'navRight'
+  | 'navLeft'
+  | 'codeOne'
+  | 'codeTwo'
+  | 'fileExplorer'
+  | 'terminal';
 
 declare module '@emotion/react' {
   export interface Theme {
@@ -14,6 +23,12 @@ declare module '@emotion/react' {
         fontSize: string;
         lineHeight: string;
         color: string;
+      };
+    };
+    grid: {
+      [key in Component]: {
+        gridRow: string;
+        gridColumn: string;
       };
     };
   }
