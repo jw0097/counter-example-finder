@@ -31,6 +31,7 @@ const AppContainer = styled.div((props) => ({
   gridTemplateColumns: '40px 1fr 1fr 1fr 40px',
   gridTemplateRows: '40px 1fr 0.4fr 30px',
   color: 'white',
+  gap: '1px',
 }));
 
 export default App;

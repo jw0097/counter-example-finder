@@ -16,6 +16,7 @@ const NavBar = ({ pos, children, ...props }: Props) => {
 };
 
 const NavBarContainer = styled.nav<{ pos?: string }>((props) => ({
+  backgroundColor: props.theme.palette.gray,
   ...(props.pos === 'left'
     ? props.theme.grid.navLeft
     : props.theme.grid.navRight),
