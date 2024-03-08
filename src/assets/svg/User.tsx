@@ -3,6 +3,8 @@ import React from 'react';
 const User = () => {
   return (
     <svg
+      role="img"
+      aria-label="User Icon"
       width="23"
       height="23"
       viewBox="0 0 23 23"

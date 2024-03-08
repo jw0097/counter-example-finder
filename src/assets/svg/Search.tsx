@@ -3,6 +3,8 @@ import React from 'react';
 const Search = () => {
   return (
     <svg
+      role="img"
+      aria-label="Search Icon"
       width="17"
       height="20"
       viewBox="0 0 17 17"
