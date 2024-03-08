@@ -1,20 +1,27 @@
 import React from 'react';
-import { css } from '@emotion/react';
+import styled from '@emotion/styled';
 
 const Footer = () => {
   return (
-    <div
-      css={css({
-        position: 'absolute',
-        bottom: 0,
-        backgroundColor: 'red',
-        height: '30px',
-        width: '100%',
-      })}
-    >
-      Footer
-    </div>
+    <FooterContainer>
+      <FooterText>Footer</FooterText>
+      <FooterText>Footer</FooterText>
+    </FooterContainer>
   );
 };
+
+const FooterContainer = styled.footer((props) => ({
+  backgroundColor: props.theme.palette.gray,
+  width: '100%',
+  height: '100%',
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  ...props.theme.grid.footer,
+}));
+
+const FooterText = styled.div((props) => ({
+  ...props.theme.typo.footer,
+}));
 
 export default Footer;

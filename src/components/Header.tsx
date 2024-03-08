@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import MacbookStatus from '../assets/svg/macbookStatus';
-import { css } from '@emotion/react';
+import MacbookStatus from '../assets/svg/MacbookStatus';
 import User from '../assets/svg/User';
 import Search from '../assets/svg/Search';
 import Setting from '../assets/svg/Setting';
@@ -25,10 +24,11 @@ const Header = () => {
 const HeaderContainer = styled.header((props) => ({
   backgroundColor: props.theme.palette.gray,
   width: '100%',
-  height: '40px',
+  height: '100%',
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
+  ...props.theme.grid.header,
 }));
 
 const HeaderStatusWrapper = styled.div({
