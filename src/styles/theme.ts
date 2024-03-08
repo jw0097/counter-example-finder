@@ -9,13 +9,13 @@ const palette = {
 const typo = {
   header: {
     fontFamily: 'Spoqa-Light',
-    fontSize: '1rem',
+    fontSize: '0.9rem',
     lineHeight: '1rem',
     color: palette.white,
   },
   footer: {
     fontFamily: 'Spoqa-Thin',
-    fontSize: '1rem',
+    fontSize: '0.8rem',
     lineHeight: '1rem',
     color: palette.white,
   },
