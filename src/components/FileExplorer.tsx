@@ -6,6 +6,7 @@ const FileExplorer = () => {
 };
 
 const FileExplorerContainer = styled.div((props) => ({
+  backgroundColor: props.theme.palette.gray,
   ...props.theme.grid.fileExplorer,
 }));
 
