@@ -6,12 +6,14 @@ import NavBar from './components/NavBar';
 import CodeEditor from './components/CodeEditor';
 import FileExplorer from './components/FileExplorer';
 import Terminal from './components/Terminal';
+import User from './assets/svg/User';
+import Search from './assets/svg/Search';
 
 const App = () => {
   return (
     <AppContainer>
       <Header />
-      <NavBar pos="left">left</NavBar>
+      <NavBar pos="left">Left</NavBar>
       <FileExplorer />
       <CodeEditor pos="left">One</CodeEditor>
       <CodeEditor pos="right">Two</CodeEditor>
