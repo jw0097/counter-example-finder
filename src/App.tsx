@@ -17,8 +17,8 @@ const App = () => {
         <LeftNav />
       </NavBar>
       <FileExplorer />
-      <CodeEditor pos="left">One</CodeEditor>
-      <CodeEditor pos="right">Two</CodeEditor>
+      <CodeEditor pos="left" />
+      <CodeEditor pos="right" />
       <Terminal />
       <NavBar pos="right">
         <RightNav />

@@ -7,12 +7,8 @@ type CustomProps = {
   pos?: string;
 };
 
-const CodeEditor = ({ pos, children, ...props }: Props) => {
-  return (
-    <CodeEditorContainer pos={pos} {...props}>
-      {children}
-    </CodeEditorContainer>
-  );
+const CodeEditor = ({ pos, ...props }: Props) => {
+  return <CodeEditorContainer pos={pos} {...props}></CodeEditorContainer>;
 };
 
 const CodeEditorContainer = styled.div<{ pos?: string }>((props) => ({
