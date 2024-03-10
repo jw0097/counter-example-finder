@@ -6,8 +6,6 @@ import NavBar from './components/container/NavBar';
 import CodeEditor from './components/container/CodeEditor';
 import FileExplorer from './components/container/FileExplorer';
 import Terminal from './components/container/Terminal';
-import User from './assets/svg/User';
-import Search from './assets/svg/Search';
 import LeftNav from './components/presenter/LeftNav';
 import RightNav from './components/presenter/RightNav';
 
@@ -36,7 +34,7 @@ const AppContainer = styled.div((props) => ({
   width: '100vw',
   overflow: 'hidden',
   display: 'grid',
-  gridTemplateColumns: '40px 1fr 1fr 1fr 40px',
+  gridTemplateColumns: '40px 0.6fr 1fr 1fr 40px',
   gridTemplateRows: '40px 1fr 0.4fr 30px',
   color: 'white',
   gap: '1px',
