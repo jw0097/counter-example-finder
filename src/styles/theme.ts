@@ -3,6 +3,7 @@ const palette = {
   gray: '#2B2D30',
   blue: '#3573F0',
   white: '#FFFFFF',
+  semiWhite: '#BBBBBB',
 };
 
 // 1rem : 16px
@@ -10,14 +11,26 @@ const typo = {
   header: {
     fontFamily: 'Spoqa-Light',
     fontSize: '0.9rem',
-    lineHeight: '1rem',
+    lineHeight: '0.9rem',
     color: palette.white,
   },
   footer: {
     fontFamily: 'Spoqa-Thin',
     fontSize: '0.8rem',
-    lineHeight: '1rem',
+    lineHeight: '0.8rem',
     color: palette.white,
+  },
+  innerHeader: {
+    fontFamily: 'Spoqa-Medium',
+    fontSize: '0.9rem',
+    lineHeight: '0.9rem',
+    color: palette.white,
+  },
+  contents: {
+    fontFamily: 'Mono-Regular',
+    fontSize: '0.85rem',
+    lineHeight: '0.85rem',
+    color: palette.semiWhite,
   },
 };
 

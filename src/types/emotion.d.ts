@@ -1,7 +1,7 @@
 import '@emotion/react';
 
-type palette = 'black' | 'gray' | 'blue' | 'white';
-type typo = 'header' | 'footer';
+type palette = 'black' | 'gray' | 'blue' | 'white' | 'semiWhite';
+type typo = 'header' | 'footer' | 'innerHeader' | 'contents';
 type Component =
   | 'header'
   | 'footer'
