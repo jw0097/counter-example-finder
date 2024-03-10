@@ -3,6 +3,8 @@ import React from 'react';
 const Setting = () => {
   return (
     <svg
+      role="img"
+      aria-label="Setting Icon"
       width="18"
       height="19"
       viewBox="0 0 18 19"

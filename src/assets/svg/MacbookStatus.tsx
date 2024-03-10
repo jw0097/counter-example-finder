@@ -3,6 +3,8 @@ import React from 'react';
 const MacbookStatus = () => {
   return (
     <svg
+      role="img"
+      aria-label="Macbook Status Icon"
       width="54"
       height="12"
       viewBox="0 0 54 12"
