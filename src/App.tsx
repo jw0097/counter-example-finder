@@ -17,7 +17,12 @@ const App = () => {
         <LeftNav />
       </NavBar>
       <FileExplorer />
-      <CodeEditor pos="left" />
+      <CodeEditor
+        pos="left"
+        css={(theme) => ({
+          borderRight: `1px solid ${theme.palette.gray}`,
+        })}
+      />
       <CodeEditor pos="right" />
       <Terminal />
       <NavBar pos="right">
