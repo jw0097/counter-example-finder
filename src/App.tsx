@@ -1,24 +1,30 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import NavBar from './components/NavBar';
-import CodeEditor from './components/CodeEditor';
-import FileExplorer from './components/FileExplorer';
-import Terminal from './components/Terminal';
+import Header from './components/container/Header';
+import Footer from './components/container/Footer';
+import NavBar from './components/container/NavBar';
+import CodeEditor from './components/container/CodeEditor';
+import FileExplorer from './components/container/FileExplorer';
+import Terminal from './components/container/Terminal';
 import User from './assets/svg/User';
 import Search from './assets/svg/Search';
+import LeftNav from './components/presenter/LeftNav';
+import RightNav from './components/presenter/RightNav';
 
 const App = () => {
   return (
     <AppContainer>
       <Header />
-      <NavBar pos="left">Left</NavBar>
+      <NavBar pos="left">
+        <LeftNav />
+      </NavBar>
       <FileExplorer />
       <CodeEditor pos="left">One</CodeEditor>
       <CodeEditor pos="right">Two</CodeEditor>
       <Terminal />
-      <NavBar pos="right">Right</NavBar>
+      <NavBar pos="right">
+        <RightNav />
+      </NavBar>
       <Footer />
     </AppContainer>
   );

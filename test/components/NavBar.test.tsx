@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, screen } from '../../src/utils/test-utils';
-import NavBar from '../../src/components/NavBar';
-import LeftNav from '../../src/components/LeftNav';
-import RightNav from '../../src/components/RightNav';
+import NavBar from '../../src/components/container/NavBar';
+import LeftNav from '../../src/components/presenter/LeftNav';
+import RightNav from '../../src/components/presenter/RightNav';
 
 describe('NavBar Components Test.', () => {
   describe('NavBar on Left Test.', () => {
@@ -12,7 +12,7 @@ describe('NavBar Components Test.', () => {
           <LeftNav />
         </NavBar>,
       );
-      const leftNavWrapper = screen.getByRole('figure');
+      const leftNavWrapper = screen.getAllByRole('figure');
       expect(leftNavWrapper).toHaveLength(2);
     });
 
@@ -62,7 +62,7 @@ describe('NavBar Components Test.', () => {
           <RightNav />
         </NavBar>,
       );
-      const rightNavWrapper = screen.getByRole('figure');
+      const rightNavWrapper = screen.getAllByRole('figure');
       expect(rightNavWrapper).toHaveLength(1);
     });
 
@@ -72,8 +72,8 @@ describe('NavBar Components Test.', () => {
           <RightNav />
         </NavBar>,
       );
-      const leftNavWIcons = screen.getAllByRole('img');
-      expect(leftNavWIcons).toHaveLength(3);
+      const rightNavWIcons = screen.getAllByRole('img');
+      expect(rightNavWIcons).toHaveLength(3);
 
       const alramButtonSVG = screen.getByRole('img', {
         name: 'AlramButton Icon',

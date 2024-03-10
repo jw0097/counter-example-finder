@@ -20,6 +20,10 @@ const NavBarContainer = styled.nav<{ pos?: string }>((props) => ({
   ...(props.pos === 'left'
     ? props.theme.grid.navLeft
     : props.theme.grid.navRight),
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'space-between',
+  alignItems: 'center',
 }));
 
 export default NavBar;

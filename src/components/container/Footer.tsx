@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { MESSAGE } from '../constants/message';
+import { MESSAGE } from '../../constants/message';
 
 const Footer = () => {
   return (

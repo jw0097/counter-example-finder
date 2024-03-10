@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '../../src/utils/test-utils';
-import Header from '../../src/components/Header';
+import Header from '../../src/components/container/Header';
 import { MESSAGE } from '../../src/constants/message';
 
 describe('Header Components test.', () => {

@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import MacbookStatus from '../assets/svg/MacbookStatus';
-import User from '../assets/svg/User';
-import Search from '../assets/svg/Search';
-import Setting from '../assets/svg/Setting';
-import { MESSAGE } from '../constants/message';
+import MacbookStatus from '../../assets/svg/MacbookStatus';
+import User from '../../assets/svg/User';
+import Search from '../../assets/svg/Search';
+import Setting from '../../assets/svg/Setting';
+import { MESSAGE } from '../../constants/message';
 
 const Header = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../../src/components/Footer';
+import Footer from '../../src/components/container/Footer';
 import { render, screen } from '../../src/utils/test-utils';
 import { MESSAGE } from '../../src/constants/message';
 
