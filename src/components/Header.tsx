@@ -1,19 +1,18 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import MacbookStatus from '../../assets/svg/MacbookStatus';
-import User from '../../assets/svg/User';
-import Search from '../../assets/svg/Search';
-import Setting from '../../assets/svg/Setting';
-import { MESSAGE } from '../../constants/message';
+import MacbookStatus from '../assets/svg/MacbookStatus';
+import User from '../assets/svg/User';
+import Search from '../assets/svg/Search';
+import Setting from '../assets/svg/Setting';
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <HeaderStatusWrapper role="figure">
+      <HeaderStatusWrapper>
         <MacbookStatus />
       </HeaderStatusWrapper>
-      <HeaderText>{MESSAGE.header}</HeaderText>
-      <HeaderButtonsWrapper role="figure">
+      <HeaderText>Find Counter Example</HeaderText>
+      <HeaderButtonsWrapper>
         <User />
         <Search />
         <Setting />

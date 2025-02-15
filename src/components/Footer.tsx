@@ -1,16 +1,11 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { MESSAGE } from '../../constants/message';
 
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterInfoWrapper role="banner">
-        <FooterText>{MESSAGE.appInfo}</FooterText>
-      </FooterInfoWrapper>
-      <FooterStatusWrapper role="status">
-        <FooterText>{MESSAGE.status}</FooterText>
-      </FooterStatusWrapper>
+      <FooterText>Footer</FooterText>
+      <FooterText>Footer</FooterText>
     </FooterContainer>
   );
 };
@@ -24,14 +19,6 @@ const FooterContainer = styled.footer((props) => ({
   alignItems: 'center',
   ...props.theme.grid.footer,
 }));
-
-const FooterInfoWrapper = styled.div({
-  marginLeft: '20px',
-});
-
-const FooterStatusWrapper = styled.div({
-  marginRight: '20px',
-});
 
 const FooterText = styled.div((props) => ({
   ...props.theme.typo.footer,
